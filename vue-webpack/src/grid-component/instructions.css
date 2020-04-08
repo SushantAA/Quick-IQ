@@ -1,0 +1,23 @@
+div{
+    height: 100%;
+    width: 100%;
+}
+#instructions{
+    width: 100%;
+    height: 100%;
+    background-color: #22d1ee;
+}
+.ib{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.it{
+    font-size: larger;
+}
+.ip{
+    font-size: 100px;
+}
+.non{
+    display: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Board Game</title>
+	<link rel="stylesheet" type="text/css" href="board.css">
+	<!-- <link rel="stylesheet" type="text/css" href="instructions.css"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+	<script type="text/javascript" src="instructions.js" ></script>
+
+<!-- 	<div id="instructions">
+		<h1>INSTRUCTIONS</h1>
+
+		<div class="ib ">
+			<div class="it">How To Play</div>
+			<div class="ip">sfkjaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssssssfkjlkdjflksdjfl</div>
+		</div>
+		<div class="ib non">
+			<p class="it">How To Play</p>
+			<p class="ip">sfkjsfkjlkdjflksdjfl</p>
+		</div>
+		<div class="ib non">
+			<p class="it">How To Play</p>
+			<p class="ip">sfkjsfkjlkdjflksdjfl</p>
+		</div>
+		<div class="ib non">
+			<p class="it">How To Play</p>
+			<p class="ip">sfkjsfkjlkdjflksdjfl</p>
+		</div>
+		<button class="btn btn-primary">PREVIOUS</button>
+		<button class="btn btn-success">NEXT</button>
+
+	</div> -->
+
+	<div id = "game">
+
+	<div id = "header" class="bg-dark" >
+	<div id="ht">Shortest Path</div>
+	<div id = "prop" >
+	<button  id="Path" >Path</button>
+	<button  id="Play_Again" >PLAY AGAIN</button>
+
+	<span class="slidecontainer">
+		<span class="sd" >Easy</span>
+	  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+	  	<span class="sd"	>Hard</span>
+	  <p>Value: <span id="demo"></span></p>
+	</span>
+	</div>
+
+	</div>
+	<div id="board" class = "container"  ></div>
+		<script type="text/javascript" src="board.js" ></script>
+	</div>
+</body>
+</html>

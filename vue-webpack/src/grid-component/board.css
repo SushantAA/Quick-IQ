@@ -1,0 +1,178 @@
+
+body{
+	background-size: cover;
+	position: relative;
+}
+i{
+	color: white;
+}
+.road{
+	background-color: #3d5af1;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black; 
+}
+#header{
+	color: white;
+	text-align: center;
+	padding: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 20px; 
+}
+div div{
+	line-height: 0;
+}
+button{
+	margin-right: 50px;
+}
+.boxes{
+	background-color: #e2f3f5;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black; 
+
+}
+.wall{
+	background-color: #0e153a;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	transition: background 1s; 
+}
+.start{
+	background-color: #3d5af1;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black; 
+}
+.end{
+	background-color: #ff0000;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black; 
+}
+.visited{
+	background-color: steelblue;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black; 
+}
+.ud{
+	background-color: yellow;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black; 
+}
+.move{
+	background-color: #3d5af1;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: 1px solid black; 
+	transition: background 1s;
+
+	animation-name: wallAnimation;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+@keyframes wallAnimation {
+  0% {
+    transform: scale(.3);
+    background-color: #22d1ee;
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: #22d1ee;
+  }
+
+  100% {
+    transform: scale(1.0);
+    background-color: #22d1ee;
+  }
+}
+
+
+#ht{
+	padding:	40px; 
+	font-size: 50px;
+}
+.sd{
+	background: transparent;
+	border: 0px solid black;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 20px;
+}
+#Path{
+	background-color: #470429;
+	border: 0px solid black;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 330px;
+}
+#Play_Again{
+	background-color: #366302;
+	border: 0px solid black;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 10%;
+}
+
+
+										/*slider*/
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100px;
+  height: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: black;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+p{
+	display: none;
+}
